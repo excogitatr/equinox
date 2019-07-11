@@ -13,10 +13,9 @@ class EqTabData {
   /// Whether the tab is disabled or not. By default it is false.
   final bool disabled;
 
-  final int iconSize;
+  final double iconSize;
 
-  EqTabData(
-      {this.icon, this.title, this.disabled = false, this.iconSize = 18.0});
+  EqTabData({this.icon, this.title, this.disabled = false, this.iconSize = 18});
 }
 
 /// A singular tab. [data] must not be null.

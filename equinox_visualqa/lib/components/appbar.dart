@@ -13,7 +13,7 @@ class _AppBarShowcaseState extends State<AppBarShowcase> {
       child: Container(),
       appBar: EqAppBar.withoutTitle(
           bottom: EqTabs(
-            onSelect: (i) {},
+        onSelect: (i) {},
         tabs: [
           EqTabData(
             title: 'a',
